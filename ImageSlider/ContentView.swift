@@ -9,9 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        // 1
+        NavigationView {
+            // 2
+            List {
+                ImageSlider()
+                    .frame(height: 300)
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+            } //: List
+            .navigationBarTitle("Image Slider", displayMode: .large)
+        } //: Navigation View
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

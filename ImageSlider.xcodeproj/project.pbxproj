@@ -11,6 +11,7 @@
 		C1726FFB26C7058A000A65DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1726FFA26C7058A000A65DD /* ContentView.swift */; };
 		C1726FFD26C7058C000A65DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1726FFC26C7058C000A65DD /* Assets.xcassets */; };
 		C172700026C7058C000A65DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1726FFF26C7058C000A65DD /* Preview Assets.xcassets */; };
+		C172700826C7059A000A65DD /* ImageSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C172700726C7059A000A65DD /* ImageSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C1726FFC26C7058C000A65DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1726FFF26C7058C000A65DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C172700126C7058C000A65DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C172700726C7059A000A65DD /* ImageSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				C1726FF826C7058A000A65DD /* ImageSliderApp.swift */,
+				C172700726C7059A000A65DD /* ImageSliderView.swift */,
 				C1726FFA26C7058A000A65DD /* ContentView.swift */,
 				C1726FFC26C7058C000A65DD /* Assets.xcassets */,
 				C172700126C7058C000A65DD /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C172700826C7059A000A65DD /* ImageSliderView.swift in Sources */,
 				C1726FFB26C7058A000A65DD /* ContentView.swift in Sources */,
 				C1726FF926C7058A000A65DD /* ImageSliderApp.swift in Sources */,
 			);
